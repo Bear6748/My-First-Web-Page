@@ -1,0 +1,47 @@
+<UserSettings><ApplicationIdentity version="14.0"/><ToolsOptions><ToolsOptionsCategory name="Environment" RegisteredName="Environment"><ToolsOptionsSubCategory name="Documents" RegisteredName="Documents" PackageName="Visual Studio Environment Package"><PropertyValue 
+
+
+
+<title>spraytanning | Best Self Tanners | Tanning Products | SherzTan</title>
+}<meta name="description" content="ShersMysticTans offers the best self tanners, fake tan &amp; the most innovative tanning products in Wyoming. 
+Shop online at the official ShersMysticTans.Store."><meta name="keywords" content=""><link rel="canonical" href="http://  /shop-retail/">
+/html/head/meta[4]
+
+
+    "configurations": [
+        {
+            "name": "Launch Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceRoot}"
+            ],
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm"
+        }
+    ]
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

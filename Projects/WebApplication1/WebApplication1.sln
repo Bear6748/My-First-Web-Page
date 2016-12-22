@@ -7,22 +7,265 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "WebApplication1.Tests\WebApplication1.Tests.csproj", "{01A59F95-A1AB-4681-8C1F-E6A09231BC59}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60D03FAB-2223-4AC7-BD35-4A020DA979FA}"
+	ProjectSection(SolutionItems) = preProject
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Description = BeeUtifullU.com
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9BDE7997-5DF2-4512-8B8E-01C99ACE4408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9BDE7997-5DF2-4512-8B8E-01C99ACE4408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDE7997-5DF2-4512-8B8E-01C99ACE4408}.Debug|x64.ActiveCfg = Release|x64
+		{9BDE7997-5DF2-4512-8B8E-01C99ACE4408}.Debug|x64.Build.0 = Release|x64
 		{9BDE7997-5DF2-4512-8B8E-01C99ACE4408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BDE7997-5DF2-4512-8B8E-01C99ACE4408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDE7997-5DF2-4512-8B8E-01C99ACE4408}.Release|x64.ActiveCfg = Release|x64
+		{9BDE7997-5DF2-4512-8B8E-01C99ACE4408}.Release|x64.Build.0 = Release|x64
 		{01A59F95-A1AB-4681-8C1F-E6A09231BC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01A59F95-A1AB-4681-8C1F-E6A09231BC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A59F95-A1AB-4681-8C1F-E6A09231BC59}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{01A59F95-A1AB-4681-8C1F-E6A09231BC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01A59F95-A1AB-4681-8C1F-E6A09231BC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A59F95-A1AB-4681-8C1F-E6A09231BC59}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
+
+<?xml version="1.0" encoding="UTF-8"?> 
+2 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
+3 <plist version="1.0"> 
+4 <dict> 
+5 	<key>comment</key> 
+6 	<string>ASP SCRIPTING DICTIONARY – By Rich Barton: Version 1.0 (based on PHP Scripting Dictionary by Justin French, Sune Foldager and Allan Odgaard) Note: .asp is handled by asp/html</string> 
+7 	<key>fileTypes</key> 
+8 	<array> 
+9 		<string>asa</string> 
+10 	</array> 
+11 	<key>foldingStartMarker</key> 
+12 	<string>(?i)^\s*(Public|Private)?\s*(Class|Function|Sub|Property)\s*([a-zA-Z_]\w*)\s*(\(.*\)\s*)?$</string> 
+13 	<key>foldingStopMarker</key> 
+14 	<string>(?i)^\s*End (Class|Function|Sub|Property)\s*$</string> 
+15 	<key>keyEquivalent</key> 
+16 	<string>^~A</string> 
+17 	<key>name</key> 
+18 	<string>ASP</string> 
+19 	<key>patterns</key> 
+20 	<array> 
+21 		<dict> 
+22 			<key>captures</key> 
+23 			<dict> 
+24 				<key>1</key> 
+25 				<dict> 
+26 					<key>name</key> 
+27 					<string>storage.type.function.asp</string> 
+28 				</dict> 
+29 				<key>2</key> 
+30 				<dict> 
+31 					<key>name</key> 
+32 					<string>entity.name.function.asp</string> 
+33 				</dict> 
+34 				<key>3</key> 
+35 				<dict> 
+36 					<key>name</key> 
+37 					<string>punctuation.definition.parameters.asp</string> 
+38 				</dict> 
+39 				<key>4</key> 
+40 				<dict> 
+41 					<key>name</key> 
+42 					<string>variable.parameter.function.asp</string> 
+43 				</dict> 
+44 				<key>5</key> 
+45 				<dict> 
+46 					<key>name</key> 
+47 					<string>punctuation.definition.parameters.asp</string> 
+48 				</dict> 
+49 			</dict> 
+50 			<key>match</key> 
+51 			<string>^\s*((?i:function|sub))\s*([a-zA-Z_]\w*)\s*(\()([^)]*)(\)).*\n?</string> 
+52 			<key>name</key> 
+53 			<string>meta.function.asp</string> 
+54 		</dict> 
+55 		<dict> 
+56 			<key>captures</key> 
+57 			<dict> 
+58 				<key>1</key> 
+59 				<dict> 
+60 					<key>name</key> 
+61 					<string>punctuation.definition.comment.asp</string> 
+62 				</dict> 
+63 			</dict> 
+64 			<key>match</key> 
+65 			<string>(').*$\n?</string> 
+66 			<key>name</key> 
+67 			<string>comment.line.apostrophe.asp</string> 
+68 		</dict> 
+69 		<dict> 
+70 			<key>captures</key> 
+71 			<dict> 
+72 				<key>1</key> 
+73 				<dict> 
+74 					<key>name</key> 
+75 					<string>punctuation.definition.comment.asp</string> 
+76 				</dict> 
+77 			</dict> 
+78 			<key>match</key> 
+79 			<string>(REM ).*$\n?</string> 
+80 			<key>name</key> 
+81 			<string>comment.line.rem.asp</string> 
+82 		</dict> 
+83 		<dict> 
+84 			<key>match</key> 
+85 			<string>(?i:\b(If|Then|Else|ElseIf|End If|While|Wend|For|To|Each|In|Step|Case|Select|End Select|Return|Continue|Do|Until|Loop|Next|With|Exit Do|Exit For|Exit Function|Exit Property|Exit Sub)\b)</string> 
+86 			<key>name</key> 
+87 			<string>keyword.control.asp</string> 
+88 		</dict> 
+89 		<dict> 
+90 			<key>match</key> 
+91 			<string>=|&gt;=|&lt;|&gt;|&lt;|&lt;&gt;|\+|-|\*|\^|&amp;|\b(?i:(Mod|And|Not|Or|Xor|Is))\b</string> 
+92 			<key>name</key> 
+93 			<string>keyword.operator.asp</string> 
+94 		</dict> 
+95 		<dict> 
+96 			<key>match</key> 
+97 			<string>(?i:\b(Call|Class|Const|Dim|Redim|Function|Sub|Property|End Property|End sub|End Function|Set|Let|Get|New|Randomize|Option Explicit|On Error Resume Next|On Error GoTo)\b)</string> 
+98 			<key>name</key> 
+99 			<string>storage.type.asp</string> 
+100 		</dict> 
+101 		<dict> 
+102 			<key>match</key> 
+103 			<string>(?i:\b(Private|Public|Default)\b)</string> 
+104 			<key>name</key> 
+105 			<string>storage.modifier.asp</string> 
+106 		</dict> 
+107 		<dict> 
+108 			<key>match</key> 
+109 			<string>(?i:\b(Empty|False|Nothing|Null|True)\b)</string> 
+110 			<key>name</key> 
+111 			<string>constant.language.asp</string> 
+112 		</dict> 
+113 		<dict> 
+114 			<key>begin</key> 
+115 			<string>"</string> 
+116 			<key>beginCaptures</key> 
+117 			<dict> 
+118 				<key>0</key> 
+119 				<dict> 
+120 					<key>name</key> 
+121 					<string>punctuation.definition.string.begin.asp</string> 
+122 				</dict> 
+123 			</dict> 
+124 			<key>end</key> 
+125 			<string>"(?!")</string> 
+126 			<key>endCaptures</key> 
+127 			<dict> 
+128 				<key>0</key> 
+129 				<dict> 
+130 					<key>name</key> 
+131 					<string>punctuation.definition.string.end.asp</string> 
+132 				</dict> 
+133 			</dict> 
+134 			<key>name</key> 
+135 			<string>string.quoted.double.asp</string> 
+136 			<key>patterns</key> 
+137 			<array> 
+138 				<dict> 
+139 					<key>match</key> 
+140 					<string>""</string> 
+141 					<key>name</key> 
+142 					<string>constant.character.escape.apostrophe.asp</string> 
+143 				</dict> 
+144 			</array> 
+145 		</dict> 
+146 		<dict> 
+147 			<key>captures</key> 
+148 			<dict> 
+149 				<key>1</key> 
+150 				<dict> 
+151 					<key>name</key> 
+152 					<string>punctuation.definition.variable.asp</string> 
+153 				</dict> 
+154 			</dict> 
+155 			<key>match</key> 
+156 			<string>(\$)[a-zA-Z_x7f-xff][a-zA-Z0-9_x7f-xff]*?\b</string> 
+157 			<key>name</key> 
+158 			<string>variable.other.asp</string> 
+159 		</dict> 
+160 		<dict> 
+161 			<key>match</key> 
+162 			<string>(?i:\b(Application|ObjectContext|Request|Response|Server|Session)\b)</string> 
+163 			<key>name</key> 
+164 			<string>support.class.asp</string> 
+165 		</dict> 
+166 		<dict> 
+167 			<key>match</key> 
+168 			<string>(?i:\b(Contents|StaticObjects|ClientCertificate|Cookies|Form|QueryString|ServerVariables)\b)</string> 
+169 			<key>name</key> 
+170 			<string>support.class.collection.asp</string> 
+171 		</dict> 
+172 		<dict> 
+173 			<key>match</key> 
+174 			<string>(?i:\b(TotalBytes|Buffer|CacheControl|Charset|ContentType|Expires|ExpiresAbsolute|IsClientConnected|PICS|Status|ScriptTimeout|CodePage|LCID|SessionID|Timeout)\b)</string> 
+175 			<key>name</key> 
+176 			<string>support.constant.asp</string> 
+177 		</dict> 
+178 		<dict> 
+179 			<key>match</key> 
+180 			<string>(?i:\b(Lock|Unlock|SetAbort|SetComplete|BianryRead|AddHeader|AppendToLog|BinaryWrite|Clear|End|Flush|Redirect|Write|CreateObject|HTMLEncode|MapPath|URLEncode|Abandon)\b)</string> 
+181 			<key>name</key> 
+182 			<string>support.function.asp</string> 
+183 		</dict> 
+184 		<dict> 
+185 			<key>match</key> 
+186 			<string>(?i:\b(Application_OnEnd|Application_OnStart|OnTransactionAbort|OnTransactionCommit|Session_OnEnd|Session_OnStart|Class_Initialize|Class_Terminate)\b)</string> 
+187 			<key>name</key> 
+188 			<string>support.function.event.asp</string> 
+189 		</dict> 
+190 		<dict> 
+191 			<key>match</key> 
+192 			<string>(?i:\b(Array|Add|Asc|Atn|CBool|CByte|CCur|CDate|CDbl|Chr|CInt|CLng|Conversions|Cos|CreateObject|CSng|CStr|Date|DateAdd|DateDiff|DatePart|DateSerial|DateValue|Day|Derived|Math|Escape|Eval|Exists|Exp|Filter|FormatCurrency|FormatDateTime|FormatNumber|FormatPercent|GetLocale|GetObject|GetRef|Hex|Hour|InputBox|InStr|InStrRev|Int|Fix|IsArray|IsDate|IsEmpty|IsNull|IsNumeric|IsObject|Item|Items|Join|Keys|LBound|LCase|Left|Len|LoadPicture|Log|LTrim|RTrim|Trim|Maths|Mid|Minute|Month|MonthName|MsgBox|Now|Oct|Remove|RemoveAll|Replace|RGB|Right|Rnd|Round|ScriptEngine|ScriptEngineBuildVersion|ScriptEngineMajorVersion|ScriptEngineMinorVersion|Second|SetLocale|Sgn|Sin|Space|Split|Sqr|StrComp|String|StrReverse|Tan|Time|Timer|TimeSerial|TimeValue|TypeName|UBound|UCase|Unescape|VarType|Weekday|WeekdayName|Year)\b)</string> 
+193 			<key>name</key> 
+194 			<string>support.function.vb.asp</string> 
+195 		</dict> 
+196 		<dict> 
+197 			<key>match</key> 
+198 			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f)?\b</string> 
+199 			<key>name</key> 
+200 			<string>constant.numeric.asp</string> 
+201 		</dict> 
+202 		<dict> 
+203 			<key>match</key> 
+204 			<string>(?i:\b(vbtrue|fvbalse|vbcr|vbcrlf|vbformfeed|vblf|vbnewline|vbnullchar|vbnullstring|vbtab|vbverticaltab|vbbinarycompare|vbtextcomparevbsunday|vbmonday|vbtuesday|vbwednesday|vbthursday|vbfriday|vbsaturday|vbusesystemdayofweek|vbfirstjan1|vbfirstfourdays|vbfirstfullweek|vbgeneraldate|vblongdate|vbshortdate|vblongtime|vbshorttime|vbobjecterror|vbEmpty|vbNull|vbInteger|vbLong|vbSingle|vbDouble|vbCurrency|vbDate|vbString|vbObject|vbError|vbBoolean|vbVariant|vbDataObject|vbDecimal|vbByte|vbArray)\b)</string> 
+205 			<key>name</key> 
+206 			<string>support.type.vb.asp</string> 
+207 		</dict> 
+208 	</array> 
+209 	<key>scopeName</key> 
+210 	<string>source.asp</string> 
+211 	<key>uuid</key> 
+212 	<string>291022B4-6B1D-11D9-90EB-000D93589AF6</string> 
+213 </dict> 
+214 </plist> 
+ 
+
+
+
+
+
+Contact GitHub
+ API
+ Training
+ Shop
+ Blog
+ About
+   © 2016 GitHub, Inc.
+

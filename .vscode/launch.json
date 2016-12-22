@@ -1,11 +1,10 @@
-{HTMLhttp://www.sherzmistictanz.com/
+"version": "0.2.0"
+,
+"configurations": [
 
-
-    "version": "0.2.0",
-    "configurations": [
+    C: \Users\BLAMMA\Documents\VisualStudio2015\BackupFiles\Solution1{
         {
-            "name": "Launch Extension",
-            "type": "extensionHost",
+            HTMLhttp: //wwwc.shersmystictans.com/ "name": "Launch Extension", "type": "extensionHost",
             "request": "launch",
             "runtimeExecutable": "${execPath}",
             "args": [
